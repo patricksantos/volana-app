@@ -10,6 +10,6 @@ class AdministradorModule extends Module {
 
   @override
   final List<ModularRoute> routes = [
-    ChildRoute('/', child: (_, args) => AdministradorPage()),
+    ChildRoute('/', child: (_, args) => const AdministradorPage()),
   ];
 }

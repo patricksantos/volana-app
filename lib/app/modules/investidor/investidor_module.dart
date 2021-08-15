@@ -10,6 +10,6 @@ class InvestidorModule extends Module {
 
   @override
   final List<ModularRoute> routes = [
-    ChildRoute('/', child: (_, args) => InvestidorPage()),
+    ChildRoute('/', child: (_, args) => const InvestidorPage()),
   ];
 }

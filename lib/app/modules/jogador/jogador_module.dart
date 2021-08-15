@@ -10,6 +10,6 @@ class JogadorModule extends Module {
 
   @override
   final List<ModularRoute> routes = [
-    ChildRoute('/', child: (_, args) => JogadorPage()),
+    ChildRoute('/', child: (_, args) => const JogadorPage()),
   ];
 }
