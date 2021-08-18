@@ -5,11 +5,13 @@ import 'package:volana/core/themes/app_text_styles.dart';
 class ButtonLogin extends StatelessWidget {
   final double height;
   final double width;
+  final Function() onTap;
 
   const ButtonLogin({
     Key? key,
     required this.height,
     required this.width,
+    required this.onTap,
   }) : super(key: key);
 
   @override
@@ -21,7 +23,7 @@ class ButtonLogin extends StatelessWidget {
         onPrimary: AppColors.whiteMilk,
         fixedSize: Size(width, height),
       ),
-      onPressed: () {},
+      onPressed: onTap,
       child: Text(
         'Entrar',
         style: TextStyles.textButton,

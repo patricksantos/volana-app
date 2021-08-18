@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137520901777",
+    "project_id": "volana-app",
+    "storage_bucket": "volana-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137520901777:android:59ac943ccef67ba7419930",
+        "android_client_info": {
+          "package_name": "br.com.volana.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137520901777-bvjs7m036274vmcshmbb8b3ercmm6dm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7EEPt6lZGB4bjOs7N2lzeyGrK6HGEpN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137520901777-bvjs7m036274vmcshmbb8b3ercmm6dm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

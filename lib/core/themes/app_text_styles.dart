@@ -34,8 +34,8 @@ class TextStyles {
     color: AppColors.blackLight,
   );
   static final loadingText = GoogleFonts.poppins(
-    fontSize: 20,
+    fontSize: 16,
     fontWeight: FontWeight.normal,
-    color: AppColors.blackLight,
+    color: AppColors.whiteMilk,
   );
 }

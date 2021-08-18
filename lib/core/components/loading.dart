@@ -15,12 +15,13 @@ class Loading extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const SizedBox(
-              height: 48,
-              width: 48,
+              height: 36,
+              width: 36,
               child: CircularProgressIndicator(
                 color: AppColors.whiteMilk,
               ),
             ),
+            const SizedBox(height: 30),
             Text(
               'Loading...',
               style: TextStyles.loadingText,
