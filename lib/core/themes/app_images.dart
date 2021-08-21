@@ -1,6 +1,8 @@
 class AppImages {
   static const brasao = "assets/icons/brasao.svg";
   static const logo = "assets/icons/logo.svg";
+  static const logo2 = "assets/icons/logo2.svg";
+  static const logoName = "assets/icons/logo_name.svg";
   static const coin = "assets/icons/coin.svg";
   static const diamont = "assets/icons/diamont.svg";
   static const helth = "assets/icons/helth.svg";

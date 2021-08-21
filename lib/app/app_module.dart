@@ -4,10 +4,13 @@ import 'package:volana/app/modules/investidor/investidor_module.dart';
 import 'package:volana/app/modules/jogador/jogador_module.dart';
 import 'package:volana/app/modules/login/login_module.dart';
 import 'package:volana/app/modules/splash/splash_module.dart';
+import 'package:volana/infra/repositories/auth_repository.dart';
 
 class AppModule extends Module {
   @override
-  final List<Bind> binds = [];
+  final List<Bind> binds = [
+    Bind.singleton((i) => AuthRepository()),
+  ];
 
   @override
   final List<ModularRoute> routes = [

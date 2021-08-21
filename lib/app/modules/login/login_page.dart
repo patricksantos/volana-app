@@ -98,7 +98,7 @@ class LoginPageState extends State<LoginPage> {
                       ButtonLogin(
                         height: 60,
                         width: size.width * 0.8,
-                        onTap: () async => await store.login(),
+                        onTap: () => store.login(),
                       ),
                     ],
                   ),
