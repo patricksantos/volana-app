@@ -22,7 +22,7 @@ class SplashPageState extends State<SplashPage> {
     super.initState();
 
     disposer = autorun((_) async {
-      await Future<void>.delayed(const Duration(seconds: 3));
+      await Future<void>.delayed(const Duration(seconds: 2));
       Modular.to.pushReplacementNamed("/login");
     });
   }

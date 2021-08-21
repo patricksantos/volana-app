@@ -43,10 +43,10 @@ dependencies:
   flutter_mobx: ^2.0.2
   flutter_svg: ^0.22.0
   google_fonts: ^2.1.0
-  firebase_core: "^1.5.0"
+  firebase_core: ^1.5.0
   firebase_auth: ^3.0.2
-  dartz: ^0.10.0
   cloud_firestore: ^2.5.0
+  dartz: ^0.10.0
   json_annotation: ^4.1.0
   anim_search_bar: ^2.0.2
   # hive: ^2.0.4

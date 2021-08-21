@@ -55,10 +55,9 @@ class LoginPageState extends State<LoginPage> {
                     padding: EdgeInsets.only(top: size.height * 0.08),
                     child: Center(
                       child: SvgPicture.asset(
-                        AppImages.logo,
+                        AppImages.logoName,
                         semanticsLabel: 'Logo',
-                        height: 100,
-                        width: 100,
+                        height: 80,
                       ),
                     ),
                   ),

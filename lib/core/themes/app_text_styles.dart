@@ -4,7 +4,7 @@ import 'package:volana/core/themes/app_colors.dart';
 
 class TextStyles {
   static final titleLogin = GoogleFonts.poppins(
-    fontSize: 32,
+    fontSize: 30,
     fontWeight: FontWeight.bold, //semibold
     color: AppColors.whiteMilk,
   );
@@ -24,7 +24,7 @@ class TextStyles {
     color: AppColors.whiteMilk,
   );
   static final textInput = GoogleFonts.poppins(
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: FontWeight.normal,
     color: AppColors.whiteMilk,
   );
